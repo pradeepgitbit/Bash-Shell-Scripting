@@ -1,4 +1,4 @@
 # Bash-Shell-Scripting
 
-- 01_basic.sh - Basic shell scripting
 ---
+## Concepts of shell scripting from Basic
