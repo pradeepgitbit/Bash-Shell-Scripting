@@ -2,6 +2,12 @@
 
 #to access the arguments
 
+if [[ $# -eq 0 ]]
+then
+    echo "Please provide an argument"
+    exit 1
+fi
+
 echo "first argument is $1"
 echo "second argument is $2"
 
