@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#first-way
+#first-way to create a function
 
 function welcomeNote {
     echo "---------"
@@ -12,7 +12,9 @@ welcomeNote
 welcomeNote
 welcomeNote
 
+
 #Second-Way
+
 name="pardeep"
 welcomeBack() {
     echo "---------"
@@ -20,7 +22,7 @@ welcomeBack() {
     echo "---------"
 }
 
-welcomeBack
+welcomeBack     #calling the function
 
 
 
