@@ -1,6 +1,7 @@
 #!/binbash
 
-set -e
+set -e  #used for debugging
+
 
 pwd
 date
