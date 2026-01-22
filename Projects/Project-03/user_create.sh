@@ -29,7 +29,7 @@ echo $PASSWORD
 
 
 # Create the User
-useradd -c $COMMENT -m $USER_NAME
+adduser -c "${COMMENT}" -m $USER_NAME
 
 
 # Check if user is successfully created or not
@@ -40,7 +40,7 @@ then
 fi
 
 # Set the password for the uer
-passwd $PASSWORD $USER_NAME
+echo $PASSWORD | passwd --stdin $USER_NAME
 
 # Check if password is succesfully set or not
 if [[ $? -ne 0 ]]
@@ -59,4 +59,4 @@ echo "Username: $USER_NAME"
 echo
 echo "Password: $PASSWORD"
 echo
-echo $(hostname)
+echo "Hostname: " $(hostname)
