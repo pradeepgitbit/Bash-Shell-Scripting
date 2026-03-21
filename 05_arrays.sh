@@ -6,6 +6,9 @@ myArray=(1 20 30.5 hello "hey budddy!")
 
 echo "Value at 3rd index is ${myArray[3]}"
 
+echo "Value at 3rd index is ${myArray[-1]}"
+
+
 echo "All Values are ${myArray[*]}"
 
 echo "Value from 1st to 3rd index is ${myArray[*]:1:3}"
