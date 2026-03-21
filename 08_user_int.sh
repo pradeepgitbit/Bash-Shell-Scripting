@@ -7,4 +7,7 @@
 
 read -p "What is your name?" name
 
-echo "Namaste $name !"
+read -p "What is your surname?" surname
+
+
+echo "Namaste $name $surname !"
