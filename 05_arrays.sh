@@ -19,7 +19,8 @@ echo "Value from 1st to 3rd index is ${myArray[*]:1:3}"
 echo "No./length of an array is ${#myArray[*]}"
 
 
-#Updating array with new values
+#Updating array with new values, seeing new values
+
 
 myArray+=(New 35 45)
 
